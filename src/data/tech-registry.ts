@@ -148,6 +148,12 @@ const TECH_REGISTRY = {
   'Storybook': { color: '#FF4785' },
   'Figma': { color: '#F24E1E' },
   'Stripe': { color: '#635BFF' },
+  'CATIA': { color: '#1c138f' },
+  'OpenGL': { color: '#3a7b97' },
+  'Godot': { color: '#2a8eb9' },
+  'Blender': { color: '#265787' },
+  'ebot': { color: '#ff7c18' }, // L'eBot est un bot de gestion de match complet pour CS:GO.
+  'Toornament': { color: '#189fff' },
 
   // ===== Testing =====
   'Jest': { color: '#C21325' },
@@ -165,6 +171,8 @@ const TECH_REGISTRY = {
   'LangChain': { color: '#1C3C3C' },
   'Pandas': { color: '#150458' },
   'NumPy': { color: '#013243' },
+  'Scikit-learn': { color: '#ff9430' },
+  'Jupyter': {color: '#f77605'},
 
   // ===== CMS & Others =====
   'WordPress': { color: '#21759B' },
