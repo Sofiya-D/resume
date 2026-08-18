@@ -196,12 +196,12 @@ export const resumeConfig: ResumeConfig = {
         },
         tasks: {
           en: [
-            'Deepening my skills in data analysis and machine learning through self-study.',
-            'Exploring possibilities for labeling sleep data using change-point detection algorithms.',
+            'Deepening my skills in data analysis and machine learning through self-study',
+            'Exploring possibilities for labeling sleep data using change-point detection algorithms',
           ],
           fr: [
-            'Approfondir mes compétences en analyse de données et de machine-Learning, en autodidacte.',
-            'Explorer les possibilités de labellisation de données de sommeil à l\'aide d\'algorithmes de détection de poijtns de changement.',
+            'Approfondir mes compétences en analyse de données et de machine-Learning, en autodidacte',
+            'Explorer les possibilités de labellisation de données de sommeil à l\'aide d\'algorithmes de détection de poijtns de changement',
           ],
         },
         env: {
@@ -223,8 +223,8 @@ export const resumeConfig: ResumeConfig = {
       techs: ['TypeScript', 'OpenGL', 'Blender'],
       details: {
         context: {
-          en: 'Team of 3 developers working on 2-3 projects simultaneously, within a 50-person company.',
-          fr: 'Équipe de 3 développeurs travaillant sur 2-3 projets simultanément, au sein d\'une société de 50 personnes.',
+          en: 'Team of 3 developers working on 2-3 projects simultaneously, within a 50-person company',
+          fr: 'Équipe de 3 développeurs travaillant sur 2-3 projets simultanément, au sein d\'une société de 50 personnes',
         },
         tasks: {
           en: [
@@ -261,8 +261,8 @@ export const resumeConfig: ResumeConfig = {
             'Mail and parcel management: receipt and handover to the postal worker, sorting, franking, distribution to customers',
           ],
           fr: [
-            'Accueil et accompagnement des clients',
-            'Gestion du courrier et des colis : réception et remise au postier, tri, affranchissement, distribution aux clients',
+            'Accueilir et accompagner les clients',
+            'Gérer le courrier et les colis : réception et remise au postier, tri, affranchissement, distribution aux clients',
           ],
         },
         env: {},
