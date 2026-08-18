@@ -340,10 +340,7 @@ export const resumeConfig: ResumeConfig = {
             'Orienter les visiteurs',
           ],
         },
-        env: { // TODO Sofiya : fill environment
-          // en: 'React / Angular / TypeScript / SCSS / Tailwind CSS / Storybook / Figma / GitLab CI',
-          // fr: 'React / Angular / TypeScript / SCSS / Tailwind CSS / Storybook / Figma / GitLab CI',
-        },
+        env: {},
       },
     },
   ],
