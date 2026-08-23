@@ -387,6 +387,7 @@ export const resumeConfig: ResumeConfig = {
       period: '2020 - 2022',
     },
     // TODO Sofiya : make these interactive to be able to show more details about stuff learned there ??
+    // eg: "my favourite courses" --> Network (with details) / Rust (with details..& projects ?)
   ],
 
   // ===== HOBBIES (optional) =====
