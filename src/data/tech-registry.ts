@@ -95,6 +95,7 @@ const TECH_REGISTRY = {
   'CouchDB': { color: '#E42528' },
   'PlanetScale': { color: '#000000' },
   'Neon': { color: '#00E599' },
+  'SQL': { color: '#ff8707' },
 
   // ===== DevOps & Cloud =====
   'Docker': { color: '#2496ED' },
@@ -154,6 +155,7 @@ const TECH_REGISTRY = {
   'Blender': { color: '#265787' },
   'ebot': { color: '#ff7c18' }, // L'eBot est un bot de gestion de match complet pour CS:GO.
   'Toornament': { color: '#189fff' },
+  'DigiTwin': {color: '#557aff'}, // https://www.digitwin.fr/
 
   // ===== Testing =====
   'Jest': { color: '#C21325' },

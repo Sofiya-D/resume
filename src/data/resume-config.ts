@@ -22,13 +22,13 @@ export const resumeConfig: ResumeConfig = {
     photo: '/images/photo.jpg',
     photoBackEmoji: '👩‍💻', // Shown when clicking the photo (3D flip)
     title: {
-      en: 'Software Engineer',
-      fr: 'Ingénieure logiciel',
+      en: 'Junior Software Engineer',
+      fr: 'Ingénieure logiciel junior',
     },
-    subtitle: {
-      en: '8 months of experience',
-      fr: '8 mois d\'expérience',
-    },
+    // subtitle: {
+    //   en: '8 months of experience',
+    //   fr: '8 mois d\'expérience',
+    // },
     location: 'Brest, France',
   },
 
@@ -62,7 +62,7 @@ export const resumeConfig: ResumeConfig = {
   // BDD : MySQL, SQLite, MariaDB
   // Backend Frameworks : Node.js, .NET
   // DevOps & Cloud : Linux
-  // Tools & Others : Git, GitHub, GitLab, CATIA, OpenGL (API/Interface de prog), Godot // pas Figma..
+  // Tools & Others : Git, GitHub, GitLab, CATIA, WebGL (API/Interface de prog), Godot // pas Figma..
   // Data & AI : Pandas, NumPy, Scikit-learn
   // Messaging & Realtime : WebSocket
 
@@ -80,6 +80,7 @@ export const resumeConfig: ResumeConfig = {
         { name: 'HTML' },
         { name: 'CSS' },
         { name: 'Bash' },
+        { name: 'SQL' },
         { name: { en: 'Assembly', fr: 'Assembleur' } },
         // { name: 'OCaml' },
       ],
@@ -88,24 +89,21 @@ export const resumeConfig: ResumeConfig = {
       title: { en: 'Other', fr: 'Autres' }, // TODO Sofiya : find an appropriate category title ???
       type: 'badges',
       items: [
-        { name: 'MySQL' },
-        { name: 'SQLite' },
-        { name: 'MariaDB' },
-        { name: 'Node.js' },
+        { name: 'Godot' },
+        { name: 'Blender' },
         { name: '.NET' },
-        { name: 'Linux' },
+        { name: 'Node.js' },
+        { name: 'WebGL' },
         { name: 'Git' },
+        { name: 'Linux' },
+        { name: 'MariaDB' },
         // { name: 'GitHub' },
         // { name: 'GitLab' },
         // { name: 'CATIA' },
-        { name: 'OpenGL' },
-        { name: 'Blender' },
-        { name: 'Godot' },
         // { name: 'Pandas' },
         // { name: 'NumPy' },
         // { name: 'Scikit-Learn' },
         // { name: 'Jupyter' },
-        { name: 'WebSocket' },
         // { name: 'ebot' },
         // { name: 'Toornament' },
       ],
@@ -114,7 +112,7 @@ export const resumeConfig: ResumeConfig = {
       title: { en: 'Conception', fr: 'Conception' },
       type: 'text',
       items: [
-        { name: { en: 'Design Pattern, POO, UML', fr: 'Design Pattern, POO, UML' } },
+        { name: { en: 'Design Patterns, POO, UML', fr: 'Design Patterns, POO, UML' } },
       ],
     },
     {
@@ -130,7 +128,7 @@ export const resumeConfig: ResumeConfig = {
       items: [
         { name: { en: 'French', fr: 'Français' }, level: { en: 'Native', fr: 'Natif' } },
         { name: { en: 'English', fr: 'Anglais' }, level: { en: 'Professional', fr: 'Professionnel' }, details: 'TOEIC 990' },
-        { name: { en: 'Russian', fr: 'Russe' }, level: { en: 'Conversational', fr: 'Conversationnel' }, details: 'Mothertongue' }, // TODO : { en: 'Mothertongue', fr: 'Langue Maternelle'}
+        { name: { en: 'Russian', fr: 'Russe' }, level: { en: 'Conversational', fr: 'Conversationnel' } }, // TODO : { en: 'Mothertongue', fr: 'Langue Maternelle'}
         { name: { en: 'Japanese', fr: 'Japonais' }, level: { en: 'Beginner', fr: 'Débutant' } },
         { name: { en: 'German', fr: 'Allemand' }, level: { en: 'Beginner', fr: 'Débutant' } },
       ],
@@ -149,8 +147,8 @@ export const resumeConfig: ResumeConfig = {
         en: 'Addition of an experimental feature, allowing the execution of user-written scripts within the virtual reality application.',
         fr: 'Ajout d’une fonctionnalité expérimentale permettant l’exécution de scripts codés par l’utilisateur, dans une application de réalité virtuelle.',
       },
-      techs: ['Node.js', 'JINT', 'MariaDB', 'Godot', 'GitLab'],
-      isHighlighted: false,
+      techs: ['C#', 'JINT', 'Godot', 'Blender', 'DigiTwin'],
+      isHighlighted: true,
       details: {
         context: {
           en: 'Team of 4 developers working on 2-3 projects simultaneously, within a 50-person company.', // code reviews on every PR.
@@ -173,8 +171,8 @@ export const resumeConfig: ResumeConfig = {
           ],
         },
         env: {
-          en: 'HTML / CSS / C# / .NET / Node.js / JavaScript / JINT / MariaDB / Godot / GitLab',
-          fr: 'HTML / CSS / C# / .NET / Node.js / JavaScript / JINT / MariaDB / Godot / GitLab',
+          en: 'HTML / CSS / C# / .NET / Node.js / JavaScript / JINT / Blender / Godot / DigiTwin / GitLab / MariaDB',
+          fr: 'HTML / CSS / C# / .NET / Node.js / JavaScript / JINT / Blender / Godot / DigiTwin / GitLab / MariaDB',
         },
       },
     },
@@ -188,7 +186,8 @@ export const resumeConfig: ResumeConfig = {
         en: 'Data analysis on sleep data collected by the lab.',
         fr: 'Analyse de données de sommeil collectées par le laboratoire.',
       },
-      techs: ['Pandas', 'NumPy', 'Scikit-learn', 'Jupyter'],
+      techs: ['Python', 'Pandas', 'Scikit-learn', 'Jupyter'],
+      isHighlighted: false,
       details: {
         context: {
           en: 'Team of 8 researchers within the research lab associated to the graduate school of informatics in Osaka Metropolitan University. Weekly meetings with the team and collaboration on some research topics.',
@@ -220,7 +219,8 @@ export const resumeConfig: ResumeConfig = {
         en: 'Exploring controllerless interaction possibilities in virtual reality',
         fr: 'Exploration de possibilités d’interactions sans manettes en réalité virtuelle.',
       },
-      techs: ['TypeScript', 'OpenGL', 'Blender'],
+      techs: ['TypeScript', 'WebGL', 'Blender', 'DigiTwin'],
+      isHighlighted: true,
       details: {
         context: {
           en: 'Team of 3 developers working on 2-3 projects simultaneously, within a 50-person company',
@@ -237,8 +237,8 @@ export const resumeConfig: ResumeConfig = {
           ],
         },
         env: {
-          en: 'TypeScript / OpenGL / Blender',
-          fr: 'TypeScript / OpenGL / Blender',
+          en: 'TypeScript / WebGL / Blender / DigiTwin',
+          fr: 'TypeScript / WebGL / Blender / DigiTwin',
         },
       },
     },
@@ -388,6 +388,7 @@ export const resumeConfig: ResumeConfig = {
     },
     // TODO Sofiya : make these interactive to be able to show more details about stuff learned there ??
     // eg: "my favourite courses" --> Network (with details) / Rust (with details..& projects ?)
+    // protocoles de communication WEB (TCP/UDP/WebSockets...) ; Rust ; ...
   ],
 
   // ===== HOBBIES (optional) =====
