@@ -200,7 +200,7 @@ export const resumeConfig: ResumeConfig = {
           ],
           fr: [
             'Approfondir mes compétences en analyse de données et de machine-Learning, en autodidacte',
-            'Explorer les possibilités de labellisation de données de sommeil à l\'aide d\'algorithmes de détection de poijtns de changement',
+            'Explorer les possibilités de labellisation de données de sommeil à l\'aide d\'algorithmes de détection de points de changement',
           ],
         },
         env: {
