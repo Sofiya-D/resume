@@ -147,12 +147,12 @@ export const resumeConfig: ResumeConfig = {
         en: 'Addition of an experimental feature, allowing the execution of user-written scripts within the virtual reality application.',
         fr: 'Ajout d’une fonctionnalité expérimentale permettant l’exécution de scripts codés par l’utilisateur, dans une application de réalité virtuelle.',
       },
-      techs: ['C#', 'JINT', 'Godot', 'Blender', 'DigiTwin'],
+      techs: ['C#', 'JINT', 'Godot', 'Blender'],
       isHighlighted: true,
       details: {
         context: {
-          en: 'Team of 4 developers working on 2-3 projects simultaneously, within a 50-person company.', // code reviews on every PR.
-          fr: 'Équipe de 4 développeurs travaillant sur 2-3 projets simultanément, au sein d\'une société de 50 personnes.', // code review sur chaque PR.
+          en: 'I joined a team of 4 developers working on 2-3 projects simultaneously, within a 50-person company.', // code reviews on every PR.
+          fr: 'J\'ai rejoint une équipe de 4 développeurs travaillant sur 2-3 projets simultanément, au sein d\'une société de 50 personnes.', // code review sur chaque PR.
         },
         tasks: {
           en: [
@@ -190,8 +190,8 @@ export const resumeConfig: ResumeConfig = {
       isHighlighted: false,
       details: {
         context: {
-          en: 'Team of 8 researchers within the research lab associated to the graduate school of informatics in Osaka Metropolitan University. Weekly meetings with the team and collaboration on some research topics.',
-          fr: 'Equipe de 8 chercheurs au sein du laboratoire de recherche associé à l\'École supérieure d\'informatique de l\'Université Métropolitaine d\'Osaka. Réunions hebdomadaires avec l\'équipe et collaboration sur certains sujets de recherche.',
+          en: 'I joined a team of 8 researchers from the research lab associated to the graduate school of informatics in Osaka Metropolitan University. Weekly meetings with the team and collaboration on some research topics.',
+          fr: 'J\'ai rejoint une équipe de 8 chercheurs du laboratoire de recherche associé à l\'École supérieure d\'informatique de l\'Université Métropolitaine d\'Osaka. Réunions hebdomadaires avec l\'équipe et collaboration sur certains sujets de recherche.',
         },
         tasks: {
           en: [
@@ -219,7 +219,7 @@ export const resumeConfig: ResumeConfig = {
         en: 'Exploring controllerless interaction possibilities in virtual reality',
         fr: 'Exploration de possibilités d’interactions sans manettes en réalité virtuelle.',
       },
-      techs: ['TypeScript', 'WebGL', 'Blender', 'DigiTwin'],
+      techs: ['TypeScript', 'WebGL', 'Blender'],
       isHighlighted: true,
       details: {
         context: {
@@ -252,20 +252,20 @@ export const resumeConfig: ResumeConfig = {
       techs: [],
       details: {
         context: {
-          en: 'Working at various post offices, reinforcing a team of 2 to 5 people to provide service on Saturday mornings and occasionally during the week.',
-          fr: 'Sur divers bureaux de poste, renfort d\'une équipe de 2 à 5 personnes pour assurer le service du samedi matin et occasionellement en semaine.',
+          en: 'Working at various post offices, I reinforced a team of 2 to 5 people to provide service on Saturday mornings and occasionally during the week.',
+          fr: 'Sur divers bureaux de poste, j\'ai complété une équipe de 2 à 5 personnes pour assurer le service du samedi matin et occasionellement en semaine.',
         },
         tasks: {
           en: [
             'Welcoming and assisting customers',
-            'Mail and parcel management: receipt and handover to the postal worker, sorting, franking, distribution to customers',
+            'Managing mails and parcels: receipt and handover to the postal worker, sorting, franking, distributing to customers',
           ],
           fr: [
             'Accueilir et accompagner les clients',
             'Gérer le courrier et les colis : réception et remise au postier, tri, affranchissement, distribution aux clients',
           ],
         },
-        env: {},
+        env: {}, // TODO : find a way to remove this, as it isn't relevant for this experience..
       },
     },
     { // GG-LAN
@@ -275,14 +275,14 @@ export const resumeConfig: ResumeConfig = {
       type: { en: 'Community', fr: 'Associatif' },
       period: { en: '2023 - Present', fr: '2023 - Présent' },
       description: {
-        en: 'Working within a team of around twenty people, providing support for the organization and execution of video game-related events.',
-        fr: 'Au sein d\'une équipe d\'une vingtaine de personnes, soutien à l\'organisation et la réalisation d\'événements liés aux jeux-vidéos.',
+        en: 'Contributiong to the organization and execution of video game-related events.',
+        fr: 'Contribution à l\'organisation et la réalisation d\'événements liés aux jeux-vidéos.',
       },
       techs: [],
       details: {
-        context: { // TODO Sofiya : fill context
-          en: '',
-          fr: '',
+        context: {
+          en: 'Working in a team of around 20 people, towards 2 to 3 events per year. The structure is highly initiative-driven. Weekly online meetings help organize collaborative work.',
+          fr: 'Au sein d\'une équipe d\'une vingtaine de personnes, à raison de 2 à 3 événements par an. L\'organisation repose beaucoup sur la prise d\'initiative des volontaires. Des réunions hebdomadaires permettent de structurer l\'effort collectif ',
         },
         tasks: {
           en: [
@@ -340,7 +340,7 @@ export const resumeConfig: ResumeConfig = {
             'Orienter les visiteurs',
           ],
         },
-        env: {},
+        env: {}, // TODO : find a way to remove this, as it isn't relevant for this experience..
       },
     },
   ],
