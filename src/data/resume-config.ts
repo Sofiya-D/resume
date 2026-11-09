@@ -304,6 +304,37 @@ export const resumeConfig: ResumeConfig = {
         },
       },
     },
+    { // STAGE OUVRIER
+      id: 'stage-enedis',
+      company: { en: 'ENEDIS', fr: 'ENEDIS' },
+      role: { en: 'Data collection intern', fr: 'Stagiaire collecte de données' },
+      type: { en: 'Internship', fr: 'Stage' },
+      period: { en: 'January 2023', fr: 'janvier 2023' },
+      description: {
+        en: 'Collection and input of data from geolocated imagery.',
+        fr: 'Collecte et saisie de données à partir d\'imagerie géolocalisée.',
+      },
+      techs: ['Excel'],
+      isHighlighted: false,
+      details: {
+        context: {
+          en: 'As part of a team of 3 interns assigned to the same task, for a duration of 1 month.',
+          fr: 'Au sein d\'une équipe de 3 stagiaires affectés à la même tâche, pour une durée de 1 mois.',
+        },
+        tasks: {
+          en: [
+            'Verification and updating of geolocated data in an Excel spreadsheet, using Google Street View and an in-house mapping software',
+          ],
+          fr: [
+            'Vérification et mise à jour de données géolocalisées dans un tableur Excel, à l\'aide de Google Street View et d\'un logiciel de cartographie interne',
+          ],
+        },
+        env: {
+          en: 'Excel / Google Street View / In-house mapping software',
+          fr: 'Excel / Google Street View / Logiciel interne de cartographie',
+        },
+      },
+    },
     { // OCEANOPOLIS
       id: 'seasonal-oceanopolis',
       company: { en: 'Brest\'Aim - Océanopolis', fr: 'Brest\'Aim - Océanopolis' },

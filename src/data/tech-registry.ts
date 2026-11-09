@@ -156,6 +156,7 @@ const TECH_REGISTRY = {
   'ebot': { color: '#ff7c18' }, // L'eBot est un bot de gestion de match complet pour CS:GO.
   'Toornament': { color: '#189fff' },
   'DigiTwin': {color: '#557aff'}, // https://www.digitwin.fr/
+  'Excel': {color: '#10793F'},
 
   // ===== Testing =====
   'Jest': { color: '#C21325' },
