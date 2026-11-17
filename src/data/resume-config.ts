@@ -129,7 +129,7 @@ export const resumeConfig: ResumeConfig = {
         { name: { en: 'French', fr: 'Français' }, level: { en: 'Native', fr: 'Natif' } },
         { name: { en: 'English', fr: 'Anglais' }, level: { en: 'Professional', fr: 'Professionnel' }, details: 'TOEIC 990' },
         { name: { en: 'Russian', fr: 'Russe' }, level: { en: 'Conversational', fr: 'Conversationnel' } }, // TODO : { en: 'Mothertongue', fr: 'Langue Maternelle'}
-        { name: { en: 'Japanese', fr: 'Japonais' }, level: { en: 'Beginner', fr: 'Débutant' } },
+        { name: { en: 'Japanese', fr: 'Japonais' }, level: { en: 'Beginner', fr: 'Débutant' } }, // details: 'Goal: JLPTn4 by the end of 2026'
         { name: { en: 'German', fr: 'Allemand' }, level: { en: 'Beginner', fr: 'Débutant' } },
       ],
     },
@@ -425,16 +425,22 @@ export const resumeConfig: ResumeConfig = {
   // ===== HOBBIES (optional) =====
   hobbies: [
     {
-      title: { en: 'Cycling', fr: 'Vélo' },
+      title: { en: 'Running; Inline skating; Cycling', fr: 'Course à pied; Roller; Vélo' },
+      // details: [
+      //   { en: 'Commute', fr: 'Déplacements / Transport' },
+      // ],
+    },
+    {
+      title: { en: 'Arts & Crafts', fr: 'Loisirs créatifs' },
       details: [
-        { en: 'Commute', fr: 'Déplacements / Transport' },
+        { en: 'Photography, DIYs, Cooking', fr: 'Photographie, Travaux manuels, Cuisine' }, // TODO : Add photo portfolio
       ],
     },
     {
-      title: { en: 'Running', fr: 'Course à pied' },
-    },
-    {
-      title: { en: 'Inline Skating', fr: 'Roller' },
+      title: { en: 'IT', fr: 'Informatique' },
+      details: [
+        { en: 'Video-games, Tinkering', fr: 'Jeux-vidéos, Tinkering' },
+      ],
     },
   ],
 
