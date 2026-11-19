@@ -147,7 +147,7 @@ export const resumeConfig: ResumeConfig = {
         en: 'Addition of an experimental feature, allowing the execution of user-written scripts within the virtual reality application.',
         fr: 'Ajout d’une fonctionnalité expérimentale permettant l’exécution de scripts codés par l’utilisateur, dans une application de réalité virtuelle.',
       },
-      techs: ['C#', 'JINT', 'Godot', 'Blender'],
+      techs: ['C#', 'Godot', 'Blender'],
       isHighlighted: true,
       details: {
         context: {
@@ -171,8 +171,8 @@ export const resumeConfig: ResumeConfig = {
           ],
         },
         env: {
-          en: 'HTML / CSS / C# / .NET / Node.js / JavaScript / JINT / Blender / Godot / DigiTwin / GitLab / MariaDB',
-          fr: 'HTML / CSS / C# / .NET / Node.js / JavaScript / JINT / Blender / Godot / DigiTwin / GitLab / MariaDB',
+          en: 'HTML / CSS / C# / .NET / Node.js / JavaScript / JINT / Blender / Godot / DigiTwin / Git / GitLab / MariaDB',
+          fr: 'HTML / CSS / C# / .NET / Node.js / JavaScript / JINT / Blender / Godot / DigiTwin / Git / GitLab / MariaDB',
         },
       },
     },
@@ -216,8 +216,8 @@ export const resumeConfig: ResumeConfig = {
       type: { en: 'Internship', fr: 'Stage' },
       period: { en: '24/06/2024 - 23/08/2024', fr: '24/06/2024 - 23/08/2024' },
       description: {
-        en: 'Exploring controllerless interaction possibilities in virtual reality',
-        fr: 'Exploration de possibilités d’interactions sans manettes en réalité virtuelle.',
+        en: 'Exploring controllerless interaction possibilities in augmented reality',
+        fr: 'Exploration de possibilités d’interactions sans manettes en réalité augmentée.',
       },
       techs: ['TypeScript', 'WebGL', 'Blender'],
       isHighlighted: true,
@@ -228,11 +228,11 @@ export const resumeConfig: ResumeConfig = {
         },
         tasks: {
           en: [
-            'Implementing the detection of specific hand gestures in virtual reality',
+            'Implementing the detection of specific hand gestures in augmented reality',
             'Creating a demo showcasing the implemented gestures',
           ],
           fr: [
-            'Implémenter la détection de certains gestes de la main en réalité virtuelle',
+            'Implémenter la détection de certains gestes de la main en réalité augmentée',
             'Réaliser une démo présentant les gestes implémentés',
           ],
         },
