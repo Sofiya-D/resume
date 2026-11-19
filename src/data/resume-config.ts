@@ -410,7 +410,12 @@ export const resumeConfig: ResumeConfig = {
       specialty: { en: 'Computer Science, Electronics & Mechatronics', fr: 'Informatique, Electronique & Mecatronique' },
       period: '2022 - 2026',
     },
-    // TODO Sofiya : add the exchange @ SeoulTech
+    {
+      school: { en: 'Seoul National University of Science and Technology', fr: 'Seoul National University of Science and Technology' },
+      degree: { en: 'Academic mobility', fr: 'Mobilité académique' },
+      specialty: { en: 'Computer Science, Machine Learning, Fluid Mechanics, Korean', fr: 'Computer Science, Machine Learning, Fluid Mechanics, Korean' },
+      period: 'september 2024 - january 2025',
+    },
     {
       school: { en: 'La Pérouse-Kerichen High School', fr: 'Lycée La Perouse-Kérichen' },
       degree: { en: 'Preparatory Classes', fr: 'Classes Préparatoires aux Grandes Ecoles' },
