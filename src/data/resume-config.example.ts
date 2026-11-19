@@ -286,12 +286,14 @@ export const resumeConfig: ResumeConfig = {
   // ===== EDUCATION =====
   education: [
     {
+      id: 'Master',
       school: { en: 'University of Paris', fr: 'Université de Paris' },
       degree: { en: 'Master in Computer Science', fr: 'Master Informatique' },
       specialty: { en: 'Web & Mobile Development', fr: 'Développement Web & Mobile' },
       period: '2017 - 2019',
     },
     {
+      id: 'Bachelor',
       school: { en: 'University of Paris', fr: 'Université de Paris' },
       degree: { en: 'Bachelor in Computer Science', fr: 'Licence Informatique' },
       period: '2014 - 2017',
