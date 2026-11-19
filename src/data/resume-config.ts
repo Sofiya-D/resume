@@ -375,19 +375,25 @@ export const resumeConfig: ResumeConfig = {
   ],
 
   // ===== PROJECTS (optional) =====
-  // TODO Sofiya : fill projects section
-  // projects: [
-  //   {
-  //     id: 'project-a',
-  //     title: { en: 'WeatherApp', fr: 'WeatherApp' },
-  //     description: {
-  //       en: 'A real-time weather dashboard built with React and OpenWeather API.',
-  //       fr: 'Un tableau de bord météo en temps réel construit avec React et l\'API OpenWeather.',
-  //     },
-  //     techs: ['React', 'TypeScript'],
-  //     url: 'https://weather-app.example.com',
-  //     github: 'https://github.com/janedoe/weather-app',
-  //   },
+  // TODO Sofiya : fill projects section - add the home server ; the todo app from seoultech ; a Rust project ?
+  projects: [
+    {
+      id: 'home-server',
+      title: { en: 'Self-hosted gaming server', fr: 'Serveur de jeu' },
+      description: {
+        en: 'Personal project of hosting a gaming server on a desktop computer at my home.',
+        fr: 'Projet personnel d\'hébergement d\'un serveur de jeu sur une machine à mon domicile.',
+        // TODO Sofiya : préciser :
+        // - Installation et configuration d\'ubuntu server
+        // - configuration du pare-feu, de ssh, d\'outils de tuneling (ngrok, pinggy)
+        // - configuration du serveur de jeu (conteneurisé avec docker)
+        // - scripting et scheduling de tâches automatisées
+        // - veille et troubleshooting en cas de besoin
+      },
+      techs: ['Docker', 'Bash', 'Linux'], // how to mention ssh ; services ; scripting ; Ubuntu ; ngrok/pinggy ; firewall configuration ?
+      // url: 'https://weather-app.example.com',
+      // github: 'https://github.com/janedoe/weather-app',
+    },
   //   {
   //     id: 'project-b',
   //     title: { en: 'TaskManager', fr: 'TaskManager' },
@@ -398,7 +404,7 @@ export const resumeConfig: ResumeConfig = {
   //     techs: ['React', 'Node.js', 'PostgreSQL'],
   //     github: 'https://github.com/janedoe/task-manager',
   //   },
-  // ],
+  ],
 
   // ===== EDUCATION =====
   education: [
