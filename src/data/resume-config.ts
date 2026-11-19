@@ -265,7 +265,6 @@ export const resumeConfig: ResumeConfig = {
             'Gérer le courrier et les colis : réception et remise au postier, tri, affranchissement, distribution aux clients',
           ],
         },
-        env: {}, // TODO : find a way to remove this, as it isn't relevant for this experience..
       },
     },
     { // GG-LAN
@@ -371,7 +370,6 @@ export const resumeConfig: ResumeConfig = {
             'Orienter les visiteurs',
           ],
         },
-        env: {}, // TODO : find a way to remove this, as it isn't relevant for this experience..
       },
     },
   ],
@@ -405,18 +403,21 @@ export const resumeConfig: ResumeConfig = {
   // ===== EDUCATION =====
   education: [
     {
+      id: 'ENIB',
       school: { en: 'National Engineering School of Brest', fr: 'Ecole Nationale d\'Ingénieurs de Brest' },
       degree: { en: 'Engineering degree', fr: 'Diplôme d\'Ingénieur' },
       specialty: { en: 'Computer Science, Electronics & Mechatronics', fr: 'Informatique, Electronique & Mecatronique' },
       period: '2022 - 2026',
     },
     {
+      id: 'SeoulTech',
       school: { en: 'Seoul National University of Science and Technology', fr: 'Seoul National University of Science and Technology' },
       degree: { en: 'Academic mobility', fr: 'Mobilité académique' },
       specialty: { en: 'Computer Science, Machine Learning, Fluid Mechanics, Korean', fr: 'Computer Science, Machine Learning, Fluid Mechanics, Korean' },
       period: 'september 2024 - january 2025',
     },
     {
+      id: 'CPGE',
       school: { en: 'La Pérouse-Kerichen High School', fr: 'Lycée La Perouse-Kérichen' },
       degree: { en: 'Preparatory Classes', fr: 'Classes Préparatoires aux Grandes Ecoles' },
       specialty: { en: 'Maths & Physics', fr: 'MPSI - MP' },

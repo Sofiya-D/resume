@@ -50,7 +50,7 @@ export interface Experience {
     context: LocalizedString
     tasks?: LocalizedStringArray
     training?: LocalizedStringArray
-    env: LocalizedString
+    env?: LocalizedString
   }
 }
 
@@ -68,6 +68,7 @@ export interface Project {
 // ===== EDUCATION =====
 
 export interface Education {
+  id: string
   school: LocalizedString
   degree: LocalizedString
   specialty?: LocalizedString

@@ -4,7 +4,7 @@ interface ExperienceDetailsContentProps {
   context: string
   tasks?: string[]
   training?: string[]
-  env: string
+  env?: string
   techs?: string[]
   description?: string
   labels: {
@@ -83,11 +83,13 @@ export function ExperienceDetailsContent({
         </div>
       )}
 
+      {env && env.length > 0 && labels.techEnv && (
       <div className={variant === 'modal' ? 'pt-3 border-t border-resume-primary/20' : ''}>
         <p className="text-xs text-resume-primary">
           <span className="font-semibold">{labels.techEnv}</span> {env}
         </p>
       </div>
+      )}
     </div>
   )
 }

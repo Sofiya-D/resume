@@ -20,7 +20,7 @@ interface ExperienceItemProps {
     context: string
     tasks?: string[]
     training?: string[]
-    env: string
+    env?: string
   }
   subItem?: { title: string; description: string }
   labels: {

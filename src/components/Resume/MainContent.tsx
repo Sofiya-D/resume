@@ -60,7 +60,7 @@ export function MainContent() {
                       context: resolve(exp.details.context),
                       tasks: exp.details.tasks ? resolveArray(exp.details.tasks) : undefined,
                       training: exp.details.training ? resolveArray(exp.details.training) : undefined,
-                      env: resolve(exp.details.env),
+                      env: exp.details.env ? resolve(exp.details.env) : undefined,
                     }
                   : undefined
               }
