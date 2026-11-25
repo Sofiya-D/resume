@@ -151,7 +151,7 @@ export const resumeConfig: ResumeConfig = {
         en: 'Addition of an experimental feature, allowing the execution of user-written scripts within the virtual reality application.',
         fr: 'Ajout d’une fonctionnalité expérimentale permettant l’exécution de scripts codés par l’utilisateur, dans une application de réalité virtuelle.',
       },
-      techs: ['C#', 'Godot', 'Blender'],
+      techs: ['C#', 'Godot', 'Blender', 'JavaScript'],
       isHighlighted: true,
       details: {
         context: {
