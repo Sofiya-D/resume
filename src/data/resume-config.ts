@@ -58,54 +58,58 @@ export const resumeConfig: ResumeConfig = {
   ],
 
   // ===== SKILLS =====
-  // langages : C, C#, Rust, Python, TypeScript, JavaScript, HTML, CSS, Bash, Assembleur
+  // langages : C, C#, Rust, Python, SQL, TypeScript, JavaScript, HTML, CSS, Bash, Assembleur, O'Caml
   // BDD : MySQL, SQLite, MariaDB
-  // Backend Frameworks : Node.js, .NET
-  // DevOps & Cloud : Linux
-  // Tools & Others : Git, GitHub, GitLab, CATIA, WebGL (API/Interface de prog), Godot // pas Figma..
-  // Data & AI : Pandas, NumPy, Scikit-learn
-  // Messaging & Realtime : WebSocket
+  // Backend Frameworks : Node.js, .NET, Vite
+  // DevOps & Cloud : Linux, Docker, GitHub Actions
+  // 3D & CAO : Blender, SketchUp, CATIA, Godot, WebGL
+  // Data & AI : Matplotlib, NumPy, Pandas, Scikit-learn, Jupyter
+  // Methodo : Git (GitHub/GitLab) (code review, MR), Agile, Scrum, TDD
+  // Conception : POO, Design Patterns, UML
+  // Hardware & protocols : STM32, ARM, UART, CAN, TCP/UDP, Sockets
+  // GDB ?
+  // Game Admin : eBot, Toornament
 
   skills: [
-    { // TODO Sofiya : choose a curation of skills
+    {
       title: { en: 'Languages', fr: 'Langages' },
       type: 'badges',
       items: [
         { name: 'C' },
         { name: 'C#' },
+        { name: 'C++' },
         { name: 'Rust' },
         { name: 'Python' },
-        { name: 'TypeScript' },
-        { name: 'JavaScript' },
-        { name: 'HTML' },
-        { name: 'CSS' },
-        { name: 'Bash' },
         { name: 'SQL' },
-        { name: { en: 'Assembly', fr: 'Assembleur' } },
-        // { name: 'OCaml' },
+        { name: 'TypeScript' },
       ],
     },
     {
-      title: { en: 'Other', fr: 'Autres' }, // TODO Sofiya : find an appropriate category title ???
+      title: { en: '3D & CAD', fr: '3D & CAO' },
       type: 'badges',
       items: [
-        { name: 'Godot' },
         { name: 'Blender' },
-        { name: '.NET' },
-        { name: 'Node.js' },
-        { name: 'WebGL' },
-        { name: 'Git' },
-        { name: 'Linux' },
-        { name: 'MariaDB' },
-        // { name: 'GitHub' },
-        // { name: 'GitLab' },
-        // { name: 'CATIA' },
-        // { name: 'Pandas' },
-        // { name: 'NumPy' },
-        // { name: 'Scikit-Learn' },
-        // { name: 'Jupyter' },
-        // { name: 'ebot' },
-        // { name: 'Toornament' },
+        { name: 'SketchUp' },
+        { name: 'Godot' },
+        { name: 'CATIA' },
+      ],
+    },
+    {
+      title: { en: 'Data & AI', fr: 'Data & IA'},
+      type: 'badges',
+      items: [
+        { name: 'Pandas' },
+        { name: 'NumPy' },
+        { name: 'Scikit-learn' },
+        { name: 'Jupyter' },
+        { name: 'Matplotlib' },
+      ]
+    },
+    {
+      title: { en: 'Hardware & Protocols', fr: 'Hardware & Protocoles' },
+      type: 'text',
+      items: [
+        { name: { en: 'STM32, ARM, UART, CAN, TCP/UDP, Sockets', fr: 'STM32, ARM, UART, CAN, TCP/UDP, Sockets' } },
       ],
     },
     {
@@ -119,7 +123,7 @@ export const resumeConfig: ResumeConfig = {
       title: { en: 'Methodologies', fr: 'Méthodologies' },
       type: 'text',
       items: [
-        { name: { en: 'Agile/Scrum, TDD, Code Review', fr: 'Agile/Scrum, TDD, Code Review' } },
+        { name: { en: 'TDD, Agile, Scrum, Git (GitHub/GitLab), GitHub Actions, Merge Requests, Code Review', fr: 'TDD, Agile, Scrum, Git (GitHub/GitLab), GitHub Actions, Merge Requests, Code Review' } },
       ],
     },
     {
@@ -127,7 +131,7 @@ export const resumeConfig: ResumeConfig = {
       type: 'languages',
       items: [
         { name: { en: 'French', fr: 'Français' }, level: { en: 'Native', fr: 'Natif' } },
-        { name: { en: 'English', fr: 'Anglais' }, level: { en: 'Professional', fr: 'Professionnel' }, details: 'TOEIC 990' },
+        { name: { en: 'English', fr: 'Anglais' }, level: { en: 'Professional', fr: 'Professionnel' }, details: 'TOEIC 990/990' },
         { name: { en: 'Russian', fr: 'Russe' }, level: { en: 'Conversational', fr: 'Conversationnel' } }, // TODO : { en: 'Mothertongue', fr: 'Langue Maternelle'}
         { name: { en: 'Japanese', fr: 'Japonais' }, level: { en: 'Beginner', fr: 'Débutant' } }, // details: 'Goal: JLPTn4 by the end of 2026'
         { name: { en: 'German', fr: 'Allemand' }, level: { en: 'Beginner', fr: 'Débutant' } },
@@ -354,20 +358,18 @@ export const resumeConfig: ResumeConfig = {
           en: [
             'Welcome and assist customers, process their payments',
             'Restock display shelves during service',
-            'Clean tables during service and the entire dining area at the end of the shift',
-            'Take stock inventory at the end of the shift',
+            'Clean tables and the dining area',
+            'Take stock inventory',
             'Process orders: espressos, lattes, paninis, pastries',
             'Adhere to hygiene and food safety standards',
-            'Direct visitors',
           ],
           fr: [
             'Accueillir, renseigner et encaisser les clients',
-            'Réapprovisionner des gondoles pendant le service',
-            'Nettoyer les tables en service, et de toute la salle en fin de service',
-            'Inventaire des stocks en fin de service',
+            'Réapprovisionner les gondoles',
+            'Nettoyer les tables et la salle',
+            'Inventaire des stocks',
             'Préparer des commandes : Expressos, Cafés Lattés, Paninis, Viennoiseries',
             'Respecter les normes d’hygiène et de sécurité alimentaire',
-            'Orienter les visiteurs',
           ],
         },
       },
@@ -385,7 +387,7 @@ export const resumeConfig: ResumeConfig = {
         fr: 'Projet personnel d\'hébergement d\'un serveur de jeu sur une machine à mon domicile.',
         // TODO Sofiya : préciser :
         // - Installation et configuration d\'ubuntu server
-        // - configuration du pare-feu, de ssh, d\'outils de tuneling (ngrok, pinggy)
+        // - configuration du pare-feu, de ssh, d\'outils de tunneling (ngrok, pinggy)
         // - configuration du serveur de jeu (conteneurisé avec docker)
         // - scripting et scheduling de tâches automatisées
         // - veille et troubleshooting en cas de besoin
@@ -437,7 +439,7 @@ export const resumeConfig: ResumeConfig = {
   // ===== HOBBIES (optional) =====
   hobbies: [
     {
-      title: { en: 'Running; Inline skating; Cycling', fr: 'Course à pied; Roller; Vélo' },
+      title: { en: 'Running; Cycling; Inline skating', fr: 'Course à pied; Roller; Vélo' },
       // details: [
       //   { en: 'Commute', fr: 'Déplacements / Transport' },
       // ],
@@ -452,6 +454,12 @@ export const resumeConfig: ResumeConfig = {
       title: { en: 'IT', fr: 'Informatique' },
       details: [
         { en: 'Video-games, Tinkering', fr: 'Jeux-vidéos, Tinkering' },
+      ],
+    },
+    {
+      title: { en: 'Cultural diversity', fr: 'Cultures du monde' },
+      details: [
+        { en: 'travel, languages, customs & traditions', fr: 'voyages, langues, traditions et coutumes' },
       ],
     },
   ],
