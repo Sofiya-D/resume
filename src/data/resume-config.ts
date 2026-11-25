@@ -23,7 +23,7 @@ export const resumeConfig: ResumeConfig = {
     photoBackEmoji: '👩‍💻', // Shown when clicking the photo (3D flip)
     title: {
       en: 'Software engineer',
-      fr: 'Ingénieure d\'études et développement logiciel',
+      fr: 'Ingénieure logiciel',
     },
     // subtitle: {
     //   en: '8 months of experience',
